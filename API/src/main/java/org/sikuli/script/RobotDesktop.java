@@ -265,6 +265,9 @@ public class RobotDesktop extends Robot implements IRobot {
     if ((modifiers & KeyModifier.ALT) != 0) {
       doKeyPress(KeyEvent.VK_ALT);
     }
+    if ((modifiers & KeyModifier.ALTGR) != 0) {
+      doKeyPress(KeyEvent.VK_ALT_GRAPH);
+    }
     if ((modifiers & KeyModifier.META) != 0) {
       if (Settings.isWindows()) {
         doKeyPress(KeyEvent.VK_WINDOWS);
@@ -284,6 +287,9 @@ public class RobotDesktop extends Robot implements IRobot {
     }
     if ((modifiers & KeyModifier.ALT) != 0) {
       doKeyRelease(KeyEvent.VK_ALT);
+    }
+    if ((modifiers & KeyModifier.ALTGR) != 0) {
+      doKeyRelease(KeyEvent.VK_ALT_GRAPH);
     }
     if ((modifiers & KeyModifier.META) != 0) {
       if (Settings.isWindows()) {

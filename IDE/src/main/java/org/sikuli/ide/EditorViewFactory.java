@@ -214,7 +214,7 @@ class SyntaxHighlightLabelView extends LabelView {
     "ENTER", "BACKSPACE", "TAB", "ESC", "UP", "RIGHT", "DOWN", "LEFT",
     "PAGE_UP", "PAGE_DOWN", "DELETE", "END", "HOME", "INSERT", "F1",
     "F2", "F3", "F4", "F5", "F6", "F7", "F8", "F9", "F10", "F11", "F12",
-    "F13", "F14", "F15", "SHIFT", "CTRL", "ALT", "META", "CMD", "WIN",
+    "F13", "F14", "F15", "SHIFT", "CTRL", "ALT", "META", "CMD", "WIN","ALTGR",
     "SCREEN", "MIDDLE",
     "WHEEL_UP", "WHEEL_DOWN",
     "PRINTSCREEN", "SCROLL_LOCK", "PAUSE", "CAPS_LOCK", "NUM0",
